@@ -1,0 +1,177 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "pSphere1",
+            "rotation" : [
+                0,
+                0.7071067690849304,
+                -0.7071067690849304,
+                -1.152023116901546e-07
+            ],
+            "scale" : [
+                0.2846609354019165,
+                0.2846609354019165,
+                0.2846609354019165
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "name" : "Vital",
+            "normalTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Vital_Vital_Emissive",
+            "uri" : "Vital_Vital_Emissive.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vital_Vital_Normal",
+            "uri" : "Vital_Vital_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vital_Vital_BaseColor-mesh_Vital_alpha",
+            "uri" : "Vital_Vital_BaseColor-mesh_Vital_alpha.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vital_Vital_Metallic-Vital_Vital_Roughness",
+            "uri" : "Vital_Vital_Metallic-Vital_Vital_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 187,
+            "max" : [
+                0.9302948117256165,
+                0.866025447845459,
+                -0.04297429323196411
+            ],
+            "min" : [
+                -0.9718378186225891,
+                -0.8660255074501038,
+                -1.847192406654358
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 558,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2244,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2244,
+            "byteOffset" : 2244
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1496,
+            "byteOffset" : 4488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1116,
+            "byteOffset" : 5984
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 7100,
+            "uri" : "Vital_part1.bin"
+        }
+    ]
+}

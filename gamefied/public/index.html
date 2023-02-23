@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>VR Museum</title>
+      <meta name="description" content="The bois' museum">
+
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+      <!-- Stylesheet -->
+      <link rel="stylesheet" href="css/homepage.css">
+    </head>
+    <body>
+      <video autoplay muted loop id="myVideo">
+        <source src="assets/videos/intro.mp4" type="video/mp4">
+      </video>
+
+      <div class="centerIntro">
+        <div class="intro">
+          <h2>Virtual Museum<br>Presented to 3DVISION Animation studios<br> A division of IDMG</h2>
+
+          <form action="/ingame.html">
+            <h3>Welcome to Virtual Museum! An online experience where you can learn about the history of VR. Play solo or collaborate with other players to find the parts that compose broken exhibits and unlock their information sheet.</h3>
+
+            <h3>On desktop use the WASD arrows to move as well as the mouse to look around. On mobile, touch the screen to move forward and pan, and rotate the device to turn.</h3>
+
+            <label for="fname">Enter your name</label><br>
+            <input type="text" id="fname" name="fname" required placeholder="My name is..."><br>
+
+
+
+            <h3>Copyright: &copy; TommyTV, 3DVISION, IDMG</h3>
+
+            <span>
+              <h3>Github:</h3>
+              <a href="https://github.com/TommyTV/VR-Museum">VR Museum</a>
+            </span>
+            <input type="submit" class="enterExperienceButton" value="Enter Museum">
+          </form>
+        </div>
+      </div>
+    </body>
+</html>
